@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+/* Inicio Header */
+nav{
+    background-color: #121212;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 28px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    padding: 20px;
+    color: #DDDDDD;
+}
+
+.nav-list a:hover{
+    color: #FFFFFF;
+}
+/* Fim Header */
