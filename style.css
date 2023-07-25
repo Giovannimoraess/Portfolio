@@ -44,7 +44,7 @@ nav{
     background-image: url("images/programador.png");
     display: flex;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 10%;
 }
 
 .main h1{
@@ -75,3 +75,33 @@ nav{
     color: #181818;
 }
 /* Fim Main */
+
+/* Inicio about */
+.about{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div{
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.about div h2{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.about img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+/* Fim About */
